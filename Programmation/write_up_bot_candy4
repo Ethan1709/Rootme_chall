@@ -1,0 +1,8 @@
+#IRC - Uncompress me
+
+IN this challenge, I must send a private message to bot Candy: "!ep4" and then it replies with a string compressed with zlib and encoded with base64. 
+I must send him the decoded message.
+I have no more than 2 seconds to send the correct answer to the bot from the time I send "ep3!".
+Response must be like : !ep4 -rep <answer>
+
+I coded a python IRC bot that connects to the channel required by the challenge that sends !ep4 to the bot, decode the message and sends the correct answer.

@@ -1,0 +1,8 @@
+#IRC - Go back to college
+
+IN this challenge, I must send a private message to bot Candy: "!ep1" and then it replies with something like this: <number1>/<number2>.
+I must calculate the square root of the number n°1 and multiply the result by the number n°2.
+I have no more than 2 seconds to send the correct answer to the bot from the time I send "ep1!".
+Response must be like : !ep1 -rep <answer>
+
+I coded a python IRC bot that connects to the channel required by the challenge that sends !ep1 to the bot, makes the equation and sends the correct answer.

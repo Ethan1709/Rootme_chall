@@ -1,0 +1,8 @@
+#IRC - The Roman’s wheel
+
+IN this challenge, I must send a private message to bot Candy: "!ep3" and then it replies with an encoded string with ROT13.
+I must send him the decoded message.
+I have no more than 2 seconds to send the correct answer to the bot from the time I send "ep3!".
+Response must be like : !ep3 -rep <answer>
+
+I coded a python IRC bot that connects to the channel required by the challenge that sends !ep3 to the bot, decode the message and sends the correct answer.
