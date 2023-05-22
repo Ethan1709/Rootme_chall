@@ -3,14 +3,6 @@ with open("ch19.txt", "r") as file:
 
 output = []
 for line in text.splitlines():
-    # outline = ''
-    # for c in line:
-    #     if c in ' \t':
-    #         outline += c
-    # output.append(outline)
-
-    # output.append(' ' * line.count(' '))
-
     s = ''
     for c in reversed(line):
         if c in ' \t':

@@ -1,0 +1,5 @@
+#Poem from Space
+
+In this challenge, I needed to understand that the end of lines are full or white spaces(Whitespace language).
+I coded a script in Python (main.py) that reads the poem and detects if there is a white space or tab and save it in the output.txt file.
+Then you just copy past the content in output.txt in a white space decoder ti find the password.
