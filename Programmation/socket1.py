@@ -1,6 +1,5 @@
 import socket
 import math
-import struct
 
 
 host = 'challenge01.root-me.org'
