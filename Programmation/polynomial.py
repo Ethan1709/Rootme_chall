@@ -11,8 +11,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     print(buff.decode())
     for i in range(0, 26):
         if i == 0:
-            equation = s.recv(512).decode()
-            equation_split = equation.split('!')
+            new_equation = s.recv(512).decode()
+            equation_split = new_equation.split('!')
             print(equation_split[1])
             args = equation_split[1].split(' ')
         else:
