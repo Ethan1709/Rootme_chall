@@ -22,11 +22,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         if i == 25:
             pass
         else:
-            op_quadratic_term = args[5]
-            if op_quadratic_term == '-':
-                quadratic_term = int(args[6][0:-3]) * (-1)
-            else:
-                quadratic_term = int(args[6][0:-3])
+            quadratic_term = int(args[6][0:-3])
 
             op_linear_term = args[7]
             if op_linear_term == '-':
