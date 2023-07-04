@@ -58,7 +58,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 output_two_roots = f'x1: {x1} ; x2: {x2}' + '\n'
                 print(output_two_roots)
                 s.sendall(output_two_roots.encode())
-                new_equation = s.recv(512).decode()  
+                new_equation = s.recv(512).decode()
                 print(new_equation)
             else:
                 response = 'Not possible' + '\n'
