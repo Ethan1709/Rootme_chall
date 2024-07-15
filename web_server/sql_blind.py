@@ -45,11 +45,6 @@ def get_password(table_name):
 	print(f'Password found: {password}')
 
 
-def main():
-	get_table_name()
-	get_password(table_name)
-
-
 if __name__ == "__main__":
 	url = 'http://challenge01.root-me.org/web-serveur/ch10/'
 	charset = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789'
